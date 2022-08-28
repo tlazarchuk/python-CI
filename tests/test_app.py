@@ -7,4 +7,4 @@ def test_home():
     assert home() == "Hello, home!"
 
 def test_profile():
-    assert profile() == "It's your profile!"
+    assert profile() == "It's my profile!"
