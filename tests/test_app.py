@@ -1,4 +1,5 @@
 from app import index
+from src.app import home, profile
 
 def test_index():
     assert index() == "Hello, world!"
