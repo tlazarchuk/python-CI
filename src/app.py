@@ -10,6 +10,10 @@ def index():
 def home():
     return "Hello, home!"
 
+@app.route("/profile")
+def profile():
+    return "It's my profile!"
+
 if __name__ == "__main__":
     app.run()
 
